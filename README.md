@@ -85,8 +85,16 @@ fn current_timestamp() -> i64 {
 }
 ```
 
-## Features
+## Install
 
 - sqlite
-- mysql
+
+  `cargo add sorm --features sqlite`
+
 - postgres
+
+  `cargo add sorm --features postgres`
+
+- mysql
+
+  `cargo add sorm --features mysql`
